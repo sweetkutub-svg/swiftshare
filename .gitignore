@@ -1,0 +1,42 @@
+# SwiftShare - Git Ignore
+# Proprietary & Confidential. All Rights Reserved.
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/pubspec.lock
+app/*.g.dart
+app/*.freezed.dart
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+app/android/key.properties
+app/android/app/*.keystore
+app/ios/Runner/GoogleService-Info.plist
+
+# Node.js
+signaling-server/node_modules/
+signaling-server/.env
+signaling-server/dist/
+
+# Web Receiver build artifacts
+web-receiver/dist/
+
+# Misc
+*.log
+*.tmp
+*.swp
