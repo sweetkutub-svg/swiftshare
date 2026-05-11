@@ -1,42 +1,45 @@
-# SwiftShare - Git Ignore
-# Proprietary & Confidential. All Rights Reserved.
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# Flutter / Dart
-app/.dart_tool/
-app/.flutter-plugins
-app/.flutter-plugins-dependencies
-app/.packages
-app/build/
-app/pubspec.lock
-app/*.g.dart
-app/*.freezed.dart
-
-# IDE
-.idea/
-.vscode/
+# IntelliJ related
 *.iml
 *.ipr
 *.iws
+.idea/
 
-# OS
-.DS_Store
-Thumbs.db
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
 
-# Secrets
-.env
-app/android/key.properties
-app/android/app/*.keystore
-app/ios/Runner/GoogleService-Info.plist
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
 
-# Node.js
-signaling-server/node_modules/
-signaling-server/.env
-signaling-server/dist/
+# Symbolication related
+app.*.symbols
 
-# Web Receiver build artifacts
-web-receiver/dist/
+# Obfuscation related
+app.*.map.json
 
-# Misc
-*.log
-*.tmp
-*.swp
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

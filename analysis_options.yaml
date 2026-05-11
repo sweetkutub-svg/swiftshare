@@ -1,0 +1,25 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    avoid_print: true
+    prefer_single_quotes: true
+    avoid_unnecessary_containers: true
+    use_key_in_widget_constructors: true
+    always_declare_return_types: true
+    cancel_subscriptions: true
+    close_sinks: true
+    directives_ordering: true
+    prefer_final_locals: true
+    prefer_final_in_for_each: true
+
+analyzer:
+  errors:
+    invalid_assignment: warning
+    missing_return: error
+    dead_code: info
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"

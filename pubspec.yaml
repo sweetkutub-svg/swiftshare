@@ -1,0 +1,84 @@
+name: swiftshare
+description: SwiftShare - Cross-Platform P2P File Transfer. Proprietary & Confidential.
+publish_to: 'none'
+version: 2.0.0+200
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Navigation
+  go_router: ^13.0.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+
+  # State Management
+  flutter_riverpod: ^2.4.5
+
+  # WebRTC & Networking
+  flutter_webrtc: ^0.9.47
+  socket_io_client: ^2.0.3
+  web_socket_channel: ^2.4.0
+  shelf: ^1.4.1
+  shelf_web_socket: ^2.0.0
+  multicast_dns: ^0.3.2
+
+  # Platform
+  path_provider: ^2.1.1
+  file_picker: ^6.1.1
+  permission_handler: ^11.0.1
+  url_launcher: ^6.2.1
+  share_plus: ^7.2.1
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.5.5
+  local_notifier: ^0.1.5
+  tray_manager: ^0.2.0
+  window_manager: ^0.3.7
+  device_info_plus: ^9.1.0
+  connectivity_plus: ^5.0.2
+  network_info_plus: ^4.1.0
+
+  # Monetization
+  google_mobile_ads: ^4.0.0
+  in_app_purchase: ^3.1.11
+
+  # Security & Storage
+  flutter_secure_storage: ^9.0.0
+  crypto: ^3.0.3
+
+  # Utilities
+  async: ^2.11.0
+  intl: ^0.18.1
+  collection: ^1.18.0
+  mime: ^1.0.4
+  uuid: ^4.2.1
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+  # Receive sharing intent
+  receive_sharing_intent: ^1.6.7
+
+  # WiFi (Android)
+  wifi_iot: ^0.3.19
+
+  # Bluetooth
+  flutter_blue_plus: ^1.31.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  freezed: ^2.4.5
+  json_serializable: ^6.7.1
+  mockito: ^5.4.4
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
